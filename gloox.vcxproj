@@ -52,11 +52,12 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <MinimalRebuild>true</MinimalRebuild>
+      <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -72,6 +73,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -123,6 +125,7 @@
     <ClCompile Include="src\gpgsigned.cpp" />
     <ClCompile Include="src\inbandbytestream.cpp" />
     <ClCompile Include="src\instantmucroom.cpp" />
+    <ClCompile Include="src\iodata.cpp" />
     <ClCompile Include="src\iq.cpp" />
     <ClCompile Include="src\jid.cpp" />
     <ClCompile Include="src\jinglecontent.cpp" />
@@ -132,6 +135,8 @@
     <ClCompile Include="src\jinglesession.cpp" />
     <ClCompile Include="src\jinglesessionmanager.cpp" />
     <ClCompile Include="src\lastactivity.cpp" />
+    <ClCompile Include="src\linklocalclient.cpp" />
+    <ClCompile Include="src\linklocalmanager.cpp" />
     <ClCompile Include="src\logsink.cpp" />
     <ClCompile Include="src\md5.cpp" />
     <ClCompile Include="src\message.cpp" />
@@ -139,6 +144,7 @@
     <ClCompile Include="src\messageeventfilter.cpp" />
     <ClCompile Include="src\messagefilter.cpp" />
     <ClCompile Include="src\messagesession.cpp" />
+    <ClCompile Include="src\mucinvitationhandler.cpp" />
     <ClCompile Include="src\mucmessagesession.cpp" />
     <ClCompile Include="src\mucroom.cpp" />
     <ClCompile Include="src\mutex.cpp" />

@@ -95,3 +95,5 @@ bld/
 [Bb]in/
 [Oo]bj/
 CMakeFiles/
+*.opendb
+*.db
